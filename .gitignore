@@ -92,3 +92,7 @@ GTAGS
 *.orig
 *~
 \#*#
+
+# Proprietary Firmware
+ddr4_*
+
