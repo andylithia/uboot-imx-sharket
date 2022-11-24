@@ -1,0 +1,7 @@
+SHARKET BOARD
+M:	Anhang Li <thelithcore@gmail.com>
+M:	Wenting Zhang <zephray@outlook.com>
+S:	Maintained
+F:	board/zephray/sharket
+F:	include/configs/sharket.h
+F:	configs/sharket_defconfig
