@@ -39,17 +39,23 @@ int spl_board_boot_device(enum boot_device boot_dev_spl)
 	case MMC1_BOOT:
 	case SD2_BOOT:
 	case MMC2_BOOT:
+		printf("SPL boot from MMC1\n");
 		return BOOT_DEVICE_MMC1;
 	case SD3_BOOT:
 	case MMC3_BOOT:
+		printf("SPL boot from MMC2\n");
 		return BOOT_DEVICE_MMC2;
 	case QSPI_BOOT:
+		printf("SPL boot from QSPI\n");
 		return BOOT_DEVICE_NOR;
 	case NAND_BOOT:
+		printf("SPL boot from NAND\n");
 		return BOOT_DEVICE_NAND;
 	case USB_BOOT:
+		printf("SPL boot from USB\n");
 		return BOOT_DEVICE_BOARD;
 	default:
+		printf("SPL boot from unknown (%d)\n", boot_dev_spl);
 		return BOOT_DEVICE_NONE;
 	}
 #endif

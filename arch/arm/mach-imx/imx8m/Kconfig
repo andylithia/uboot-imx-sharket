@@ -171,5 +171,6 @@ source "board/freescale/imx8mm_val/Kconfig"
 source "board/freescale/imx8mn_evk/Kconfig"
 source "board/freescale/imx8mp_evk/Kconfig"
 source "board/toradex/verdin-imx8mm/Kconfig"
+source "board/zephray/sharket/Kconfig"
 
 endif
